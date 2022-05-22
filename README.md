@@ -15,3 +15,14 @@ https://drive.google.com/file/d/1YUv6IQvpM8FVsEij1RfmzjX8Zl4X7YT0/view?usp=shari
 
 ![](https://github.com/TalhaaaYaqoob/Korean-Number-Plate-Recognition-using-yolo-V4/blob/main/detections/crop/ezgif.com-gif-maker.gif)
 
+
+## How to Run
+
+
+> **_NOTE:_** # Tensorflow CPU
+conda env create -f conda-cpu.yml
+conda activate yolov4-cpu
+
+# Tensorflow GPU
+conda env create -f conda-gpu.yml
+conda activate yolov4-gpu
