@@ -13,5 +13,5 @@ Results:
 https://drive.google.com/file/d/1YUv6IQvpM8FVsEij1RfmzjX8Zl4X7YT0/view?usp=sharing
 
 
-![](ezgif.com-gif-maker.gif)
+![](https://github.com/TalhaaaYaqoob/Korean-Number-Plate-Recognition-using-yolo-V4/blob/main/detections/crop/ezgif.com-gif-maker.gif)
 
