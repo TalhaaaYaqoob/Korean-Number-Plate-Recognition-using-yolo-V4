@@ -39,9 +39,11 @@ pip install -r requirements-gpu.txt
 
 </pre>
 
-<pre>
 
 # Convert darknet weights to tensorflow
+
+<pre>
+
 ## yolov4
 python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4-416 --input_size 416 --model yolov4 
 
