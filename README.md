@@ -38,3 +38,20 @@ pip install -r requirements.txt
 pip install -r requirements-gpu.txt
 
 </pre>
+
+<pre>
+
+# Convert darknet weights to tensorflow
+## yolov4
+python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4-416 --input_size 416 --model yolov4 
+
+# Run yolov4 tensorflow model
+python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/kite.jpg
+
+# Run yolov4 on video
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./data/video/video.mp4 --output ./detections/results.avi
+
+# Run yolov4 on webcam
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+
+</pre>
