@@ -18,11 +18,23 @@ https://drive.google.com/file/d/1YUv6IQvpM8FVsEij1RfmzjX8Zl4X7YT0/view?usp=shari
 
 ## How to Run
 
-
-> **_NOTE:_** # Tensorflow CPU
-conda env create -f conda-cpu.yml
+<pre>
+# Tensorflow CPU
+conda env create -f conda-cpu.yml <br/>
 conda activate yolov4-cpu
 
 # Tensorflow GPU
-conda env create -f conda-gpu.yml
+conda env create -f conda-gpu.yml <br/>
 conda activate yolov4-gpu
+</pre>
+
+## Pip
+
+<pre>
+# TensorFlow CPU
+pip install -r requirements.txt
+
+# TensorFlow GPU
+pip install -r requirements-gpu.txt
+
+</pre>
