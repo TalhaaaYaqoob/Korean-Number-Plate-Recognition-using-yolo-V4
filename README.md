@@ -1,4 +1,4 @@
-# Korean-Number-Plate-Recognition-using-yolo-V4
+# Korean-Number-Plate-Detection-using-yolo-V4
 
 A comprehensive list of custom functions for YOLOv4, YOLOv4-tiny, YOLOv3, and YOLOv3-less used in TensorFlow, TFLite and TensorRT.
 
